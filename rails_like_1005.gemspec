@@ -6,12 +6,12 @@ require "rails_like_1005/version"
 Gem::Specification.new do |spec|
   spec.name          = "rails_like_1005"
   spec.version       = RailsLike1005::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Peck"]
   spec.email         = ["xiaoyang20170204@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{a rails like fromework for practice}
+  spec.description   = %q{a rails like fromework for practice,it is not identical with summary}
+  spec.homepage      = "https://github.com/PeckLiu2017/rails_like_1005.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,4 +33,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16.a"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_runtime_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
+  spec.add_development_dependency "pry", "~> 0.11.1"
 end
