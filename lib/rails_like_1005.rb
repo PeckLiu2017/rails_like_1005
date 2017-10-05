@@ -1,3 +1,4 @@
+require "rails_like_1005/array"
 require "rails_like_1005/version"
 
 module RailsLike1005
