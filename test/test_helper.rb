@@ -10,3 +10,5 @@ $LOAD_PATH.unshift File.expand_path(d)
 
 require "rails_like_1005"
 # ? 最后一个require是什么意思
+# 加入路径之后还要 require lib/rails_like_1005.rb
+# 这样代码才能使用吧

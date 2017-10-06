@@ -1,4 +1,4 @@
-class QuotesController < Rulers::Controller
+class QuotesController < RailsLike1005::Controller
   def a_quote
     "There is nothing either good or bad " +
       "but thinking makes it so."
